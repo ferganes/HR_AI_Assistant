@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h1>HR AI Assistant</h1>
+            <p>Ваш персональный помощник</p>
+        </div>
+
+        <div class="messages" id="messages">
+            <div class="empty">
+                <div class="empty-icon">💭</div>
+                <p>Введите вопрос, чтобы начать диалог</p>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="questionInput" placeholder="Введите вопрос..." autocomplete="off">
+            <button id="sendBtn" onclick="send()">Отправить</button>
+        </div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>
