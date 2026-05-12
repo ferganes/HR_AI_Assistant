@@ -98,7 +98,7 @@ async def startup():
         return
 
     # Удаление БД
-    database_manager.drop_database()
+    # database_manager.drop_database()
 
     init_database()
 
